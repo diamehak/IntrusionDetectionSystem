@@ -1,27 +1,10 @@
-# 🔐 Intrusion Detection System using Machine Learning
-
-A network-based Intrusion Detection System (IDS) that uses machine learning to classify network traffic and detect potential intrusions in real time or from log datasets.
-
-## 🚀 Features
-- 📊 Uses the CICIDS2017 dataset for realistic attack simulation
-- 🔍 Trains a Random Forest classifier on preprocessed network data
-- 📡 (Optional) Supports real-time packet capture using PyShark
-- 🧠 Classifies packets as benign or malicious
-- 💾 Saves and loads the trained model (`ids_model.pkl`) for deployment
-
-## 🧰 Tech Stack
-- Python
-- scikit-learn
-- pandas
-- pyshark (for live monitoring)
-- joblib
-
-## 📂 Directory Structure
-```bash
-intrusion-detection-system/
-├── data/                 # Dataset files
-├── model/                # Trained ML model
-├── src/                  # Source scripts for training and prediction
-├── utils/                # Feature extraction (custom logic)
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+# intrusion-detection-using-ml
+extract the dataset to the folder where the python file is available
+THE USE OF EACH FILE ARE :     
+advanced file : its an advanced version of ids where main two disadvantages of traditional ids like zeroday threat in both file(malware) and network(threat) is improved
+graphs plot : Learn about building a basic IDS using machine learning.
+Demonstrate the application of Random Forest Classifiers for binary classification problems.
+Analyze and interpret model performance in network security scenarios.
+IDS USING ML : main file
+simulation(improved) : it is a python demonstration of ids working 
+simulation : both are same but new simulation is more advanced than this
